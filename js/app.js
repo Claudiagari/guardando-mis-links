@@ -5,10 +5,10 @@ boton.addEventListener('click', function(event) {
   if (area.value) {
     var li = document.createElement('li');
     var link = document.createElement('a');
-    link.textContent = area.value 
-    link.setAttribute('href','#');
+    link.textContent = area.value;
+    link.setAttribute('href', '#');
     li.appendChild(link);
-    lista.appendChild(li)
+    lista.appendChild(li);
     area.value = '';
   }
 });
